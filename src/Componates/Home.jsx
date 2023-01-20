@@ -4,6 +4,9 @@ import { BsWallet2 } from 'react-icons/bs';
 import img1 from '../Images/1.jpg';
 import img2 from '../Images/2.jpg';
 import img3 from '../Images/3.jpg';
+import img4 from '../Images/4.jpg';
+import img5 from '../Images/5.jpg';
+import img6 from '../Images/6.jpg';
 
 function Home() {
   return (
@@ -86,19 +89,19 @@ function Home() {
             <div className="our-services mt-5">
               <ul className='row row-cols-1 row-cols-sm-2 row-cols-md-3 text-center ' style={{ listStyle: 'none' }}>
                 <li>
-                  <a href="#"><img src={img1} alt="OUR SERVICES IMAGES" /></a>
+                  <a href="#"><img src={img4} alt="OUR SERVICES IMAGES" /></a>
                   <h4 className='mt-4'>INTERIOR RENOVATION</h4>
                   <div className='box-header'></div>
                   <p>We can help you bring new life to existing rooms and develop unused spaces.</p>
                 </li>
                 <li>
-                  <a href="#"><img src={img2} alt="OUR SERVICES IMAGES" /></a>
+                  <a href="#"><img src={img5} alt="OUR SERVICES IMAGES" /></a>
                   <h4 className='mt-4'>DESIGN AND BUILD</h4>
                   <div className='box-header'></div>
                   <p>From initial design and project specification to archieving a high end finish.</p>
                 </li>
                 <li>
-                  <a href="#"><img src={img3} alt="OUR SERVICES IMAGES" /></a>
+                  <a href="#"><img src={img6} alt="OUR SERVICES IMAGES" /></a>
                   <h4 className='mt-4'>TILING AND PAINTING</h4>
                   <div className='box-header'></div>
                   <p>We offer quality tiling and painting solutions for interior and exterior.</p>
